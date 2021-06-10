@@ -36,7 +36,7 @@ def useBatch(episode): # decompose episode into useful elements
     return S, A, R
 
 
-for i in range(max_episode): # REINFORCE Learning - Policy Gradient
+for i in range(max_episode): # REINFORCE Learning - PolicyGradient
     pState = env.reset() # create new game (env)
     done = False
     episode = [] # REINFORCE is a type of episodic learning. Save transitions
